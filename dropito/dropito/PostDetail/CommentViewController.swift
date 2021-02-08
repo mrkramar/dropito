@@ -75,6 +75,10 @@ final class CommentViewController: UIViewController {
             if success {
                 DispatchQueue.main.async { [self] in
                     refreshComments()
+                    textView.isEditable = false
+                    textView.isEditable = true
+                    textView.textColor = .lightGray
+                    textView.text = "Type your thoughts here..."
                 }
             }
             else {

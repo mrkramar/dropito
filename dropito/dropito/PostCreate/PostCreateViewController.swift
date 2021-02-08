@@ -84,7 +84,7 @@ class PostCreateViewController: UIViewController, UIImagePickerControllerDelegat
         messageBox.text = "Type your thoughts here..."
         messageBox.textColor = .lightGray
         messageBox.isEditable = true
-        messageBox.autocapitalizationType = .words
+        messageBox.autocapitalizationType = .sentences
         messageBox.isScrollEnabled = false
         messageBox.font = UIFont(name: messageBox.font!.fontName, size: 18)
         view.addSubview(messageBox)

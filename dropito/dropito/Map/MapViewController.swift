@@ -65,7 +65,7 @@ final class MapViewController: UIViewController, CLLocationManagerDelegate {
             
             refreshAnnotations()
             centerLocationTapped()
-            Timer.scheduledTimer(timeInterval: 20, target: self, selector: #selector(self.refreshAnnotations), userInfo: nil, repeats: true)
+            Timer.scheduledTimer(timeInterval: 15, target: self, selector: #selector(self.refreshAnnotations), userInfo: nil, repeats: true)
             
         } else if locationManager.authorizationStatus == .denied {
             showNoLocationAlert()
