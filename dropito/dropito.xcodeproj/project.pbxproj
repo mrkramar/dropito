@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5307BD302590BB2E00390F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD2F2590BB2E00390F62 /* AppDelegate.swift */; };
+		5307BD322590BB2E00390F62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD312590BB2E00390F62 /* SceneDelegate.swift */; };
+		5307BD342590BB2E00390F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD332590BB2E00390F62 /* ViewController.swift */; };
+		5307BD372590BB2E00390F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BD352590BB2E00390F62 /* Main.storyboard */; };
+		5307BD392590BB3000390F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307BD382590BB3000390F62 /* Assets.xcassets */; };
+		5307BD3C2590BB3000390F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BD3A2590BB3000390F62 /* LaunchScreen.storyboard */; };
+		5307BD472590BB3000390F62 /* dropitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD462590BB3000390F62 /* dropitoTests.swift */; };
+		5307BD522590BB3000390F62 /* dropitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD512590BB3000390F62 /* dropitoUITests.swift */; };
+		5307BD642590BC9A00390F62 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD632590BC9A00390F62 /* Post.swift */; };
+		5307BD6D2590EA2D00390F62 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD6C2590EA2D00390F62 /* MapViewController.swift */; };
+		5307BD722590EA3900390F62 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD712590EA3900390F62 /* MapViewModel.swift */; };
+		5307BD772590ED4E00390F62 /* MapPostAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD762590ED4E00390F62 /* MapPostAnnotation.swift */; };
+		5307BD7D2591021600390F62 /* PostCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD7C2591021600390F62 /* PostCreateViewController.swift */; };
+		5307BD8525910DA600390F62 /* PostCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD8425910DA600390F62 /* PostCreateViewModel.swift */; };
+		5307BD8C2591174100390F62 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD8B2591174100390F62 /* ProfileViewController.swift */; };
+		5307BD942591208900390F62 /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD932591208900390F62 /* MessageListViewController.swift */; };
+		5307BD992591209500390F62 /* MessagesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD982591209500390F62 /* MessagesListViewModel.swift */; };
+		5307BD9E259120A000390F62 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BD9D259120A000390F62 /* ProfileViewModel.swift */; };
+		5307BDA3259120B000390F62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BDA2259120B000390F62 /* User.swift */; };
+		5307BDA82591211900390F62 /* MapPostAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307BDA72591211900390F62 /* MapPostAnnotationView.swift */; };
+		538B303925D0660D00F7CAED /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B303825D0660D00F7CAED /* Alerts.swift */; };
+		53D854E125C977E60058039F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D854E025C977E60058039F /* Comment.swift */; };
+		53DB37F925C7033600DE89EC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB37F825C7033600DE89EC /* Message.swift */; };
+		53DB380025C714D300DE89EC /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB37FF25C714D300DE89EC /* MessageDetailViewController.swift */; };
+		53DB380525C714E700DE89EC /* MessageDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB380425C714E700DE89EC /* MessageDetailViewModel.swift */; };
+		53DB380A25C714F600DE89EC /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB380925C714F600DE89EC /* PostDetailViewController.swift */; };
+		53DB380F25C7150400DE89EC /* PostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB380E25C7150400DE89EC /* PostDetailViewModel.swift */; };
+		53F7BDAB25CEE84A002A4979 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F7BDAA25CEE84A002A4979 /* CommentViewController.swift */; };
+		53F7BDB025D0265A002A4979 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F7BDAF25D0265A002A4979 /* PostListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5307BD432590BB3000390F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5307BD242590BB2E00390F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5307BD2B2590BB2E00390F62;
+			remoteInfo = dropito;
+		};
+		5307BD4E2590BB3000390F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5307BD242590BB2E00390F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5307BD2B2590BB2E00390F62;
+			remoteInfo = dropito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5307BD2C2590BB2E00390F62 /* dropito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5307BD2F2590BB2E00390F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5307BD312590BB2E00390F62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5307BD332590BB2E00390F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5307BD362590BB2E00390F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5307BD382590BB3000390F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5307BD3B2590BB3000390F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5307BD3D2590BB3000390F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307BD422590BB3000390F62 /* dropitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5307BD462590BB3000390F62 /* dropitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropitoTests.swift; sourceTree = "<group>"; };
+		5307BD482590BB3000390F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307BD4D2590BB3000390F62 /* dropitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5307BD512590BB3000390F62 /* dropitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropitoUITests.swift; sourceTree = "<group>"; };
+		5307BD532590BB3000390F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307BD632590BC9A00390F62 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5307BD6C2590EA2D00390F62 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5307BD712590EA3900390F62 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		5307BD762590ED4E00390F62 /* MapPostAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPostAnnotation.swift; sourceTree = "<group>"; };
+		5307BD7C2591021600390F62 /* PostCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateViewController.swift; sourceTree = "<group>"; };
+		5307BD8425910DA600390F62 /* PostCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateViewModel.swift; sourceTree = "<group>"; };
+		5307BD8B2591174100390F62 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5307BD932591208900390F62 /* MessageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewController.swift; sourceTree = "<group>"; };
+		5307BD982591209500390F62 /* MessagesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListViewModel.swift; sourceTree = "<group>"; };
+		5307BD9D259120A000390F62 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		5307BDA2259120B000390F62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5307BDA72591211900390F62 /* MapPostAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPostAnnotationView.swift; sourceTree = "<group>"; };
+		538B303825D0660D00F7CAED /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		53D854E025C977E60058039F /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		53DB37F825C7033600DE89EC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		53DB37FF25C714D300DE89EC /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		53DB380425C714E700DE89EC /* MessageDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewModel.swift; sourceTree = "<group>"; };
+		53DB380925C714F600DE89EC /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		53DB380E25C7150400DE89EC /* PostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewModel.swift; sourceTree = "<group>"; };
+		53F7BDAA25CEE84A002A4979 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		53F7BDAF25D0265A002A4979 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5307BD292590BB2E00390F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5307BD3F2590BB3000390F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5307BD4A2590BB3000390F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5307BD232590BB2E00390F62 = {
+			isa = PBXGroup;
+			children = (
+				5307BD2E2590BB2E00390F62 /* dropito */,
+				5307BD452590BB3000390F62 /* dropitoTests */,
+				5307BD502590BB3000390F62 /* dropitoUITests */,
+				5307BD2D2590BB2E00390F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5307BD2D2590BB2E00390F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD2C2590BB2E00390F62 /* dropito.app */,
+				5307BD422590BB3000390F62 /* dropitoTests.xctest */,
+				5307BD4D2590BB3000390F62 /* dropitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5307BD2E2590BB2E00390F62 /* dropito */ = {
+			isa = PBXGroup;
+			children = (
+				53DB37FE25C7149000DE89EC /* MessageDetail */,
+				53DB37FD25C7147B00DE89EC /* PostDetail */,
+				5307BD8A2591154F00390F62 /* MessageList */,
+				5307BD892591154800390F62 /* Profile */,
+				5307BD7B259101F400390F62 /* PostCreate */,
+				5307BD6B2590E9DC00390F62 /* Map */,
+				5307BD622590BC8700390F62 /* Model */,
+				5307BD2F2590BB2E00390F62 /* AppDelegate.swift */,
+				5307BD312590BB2E00390F62 /* SceneDelegate.swift */,
+				5307BD332590BB2E00390F62 /* ViewController.swift */,
+				5307BD352590BB2E00390F62 /* Main.storyboard */,
+				5307BD382590BB3000390F62 /* Assets.xcassets */,
+				5307BD3A2590BB3000390F62 /* LaunchScreen.storyboard */,
+				5307BD3D2590BB3000390F62 /* Info.plist */,
+				538B303825D0660D00F7CAED /* Alerts.swift */,
+			);
+			path = dropito;
+			sourceTree = "<group>";
+		};
+		5307BD452590BB3000390F62 /* dropitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD462590BB3000390F62 /* dropitoTests.swift */,
+				5307BD482590BB3000390F62 /* Info.plist */,
+			);
+			path = dropitoTests;
+			sourceTree = "<group>";
+		};
+		5307BD502590BB3000390F62 /* dropitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD512590BB3000390F62 /* dropitoUITests.swift */,
+				5307BD532590BB3000390F62 /* Info.plist */,
+			);
+			path = dropitoUITests;
+			sourceTree = "<group>";
+		};
+		5307BD622590BC8700390F62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD632590BC9A00390F62 /* Post.swift */,
+				5307BDA2259120B000390F62 /* User.swift */,
+				53DB37F825C7033600DE89EC /* Message.swift */,
+				53D854E025C977E60058039F /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5307BD6B2590E9DC00390F62 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD6C2590EA2D00390F62 /* MapViewController.swift */,
+				5307BD712590EA3900390F62 /* MapViewModel.swift */,
+				5307BD762590ED4E00390F62 /* MapPostAnnotation.swift */,
+				5307BDA72591211900390F62 /* MapPostAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		5307BD7B259101F400390F62 /* PostCreate */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD7C2591021600390F62 /* PostCreateViewController.swift */,
+				5307BD8425910DA600390F62 /* PostCreateViewModel.swift */,
+			);
+			path = PostCreate;
+			sourceTree = "<group>";
+		};
+		5307BD892591154800390F62 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD8B2591174100390F62 /* ProfileViewController.swift */,
+				5307BD9D259120A000390F62 /* ProfileViewModel.swift */,
+				53F7BDAF25D0265A002A4979 /* PostListViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5307BD8A2591154F00390F62 /* MessageList */ = {
+			isa = PBXGroup;
+			children = (
+				5307BD932591208900390F62 /* MessageListViewController.swift */,
+				5307BD982591209500390F62 /* MessagesListViewModel.swift */,
+			);
+			path = MessageList;
+			sourceTree = "<group>";
+		};
+		53DB37FD25C7147B00DE89EC /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				53DB380925C714F600DE89EC /* PostDetailViewController.swift */,
+				53DB380E25C7150400DE89EC /* PostDetailViewModel.swift */,
+				53F7BDAA25CEE84A002A4979 /* CommentViewController.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		53DB37FE25C7149000DE89EC /* MessageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				53DB37FF25C714D300DE89EC /* MessageDetailViewController.swift */,
+				53DB380425C714E700DE89EC /* MessageDetailViewModel.swift */,
+			);
+			path = MessageDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5307BD2B2590BB2E00390F62 /* dropito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5307BD562590BB3000390F62 /* Build configuration list for PBXNativeTarget "dropito" */;
+			buildPhases = (
+				5307BD282590BB2E00390F62 /* Sources */,
+				5307BD292590BB2E00390F62 /* Frameworks */,
+				5307BD2A2590BB2E00390F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dropito;
+			productName = dropito;
+			productReference = 5307BD2C2590BB2E00390F62 /* dropito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5307BD412590BB3000390F62 /* dropitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5307BD592590BB3000390F62 /* Build configuration list for PBXNativeTarget "dropitoTests" */;
+			buildPhases = (
+				5307BD3E2590BB3000390F62 /* Sources */,
+				5307BD3F2590BB3000390F62 /* Frameworks */,
+				5307BD402590BB3000390F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5307BD442590BB3000390F62 /* PBXTargetDependency */,
+			);
+			name = dropitoTests;
+			productName = dropitoTests;
+			productReference = 5307BD422590BB3000390F62 /* dropitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5307BD4C2590BB3000390F62 /* dropitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5307BD5C2590BB3000390F62 /* Build configuration list for PBXNativeTarget "dropitoUITests" */;
+			buildPhases = (
+				5307BD492590BB3000390F62 /* Sources */,
+				5307BD4A2590BB3000390F62 /* Frameworks */,
+				5307BD4B2590BB3000390F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5307BD4F2590BB3000390F62 /* PBXTargetDependency */,
+			);
+			name = dropitoUITests;
+			productName = dropitoUITests;
+			productReference = 5307BD4D2590BB3000390F62 /* dropitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5307BD242590BB2E00390F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					5307BD2B2590BB2E00390F62 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					5307BD412590BB3000390F62 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5307BD2B2590BB2E00390F62;
+					};
+					5307BD4C2590BB3000390F62 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5307BD2B2590BB2E00390F62;
+					};
+				};
+			};
+			buildConfigurationList = 5307BD272590BB2E00390F62 /* Build configuration list for PBXProject "dropito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5307BD232590BB2E00390F62;
+			productRefGroup = 5307BD2D2590BB2E00390F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5307BD2B2590BB2E00390F62 /* dropito */,
+				5307BD412590BB3000390F62 /* dropitoTests */,
+				5307BD4C2590BB3000390F62 /* dropitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5307BD2A2590BB2E00390F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307BD3C2590BB3000390F62 /* LaunchScreen.storyboard in Resources */,
+				5307BD392590BB3000390F62 /* Assets.xcassets in Resources */,
+				5307BD372590BB2E00390F62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5307BD402590BB3000390F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5307BD4B2590BB3000390F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5307BD282590BB2E00390F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307BDA82591211900390F62 /* MapPostAnnotationView.swift in Sources */,
+				5307BD8525910DA600390F62 /* PostCreateViewModel.swift in Sources */,
+				53DB380025C714D300DE89EC /* MessageDetailViewController.swift in Sources */,
+				5307BD342590BB2E00390F62 /* ViewController.swift in Sources */,
+				5307BD8C2591174100390F62 /* ProfileViewController.swift in Sources */,
+				53DB380525C714E700DE89EC /* MessageDetailViewModel.swift in Sources */,
+				53F7BDB025D0265A002A4979 /* PostListViewController.swift in Sources */,
+				53DB380A25C714F600DE89EC /* PostDetailViewController.swift in Sources */,
+				5307BD302590BB2E00390F62 /* AppDelegate.swift in Sources */,
+				5307BD7D2591021600390F62 /* PostCreateViewController.swift in Sources */,
+				538B303925D0660D00F7CAED /* Alerts.swift in Sources */,
+				53DB380F25C7150400DE89EC /* PostDetailViewModel.swift in Sources */,
+				53F7BDAB25CEE84A002A4979 /* CommentViewController.swift in Sources */,
+				53D854E125C977E60058039F /* Comment.swift in Sources */,
+				5307BD322590BB2E00390F62 /* SceneDelegate.swift in Sources */,
+				5307BDA3259120B000390F62 /* User.swift in Sources */,
+				5307BD992591209500390F62 /* MessagesListViewModel.swift in Sources */,
+				5307BD772590ED4E00390F62 /* MapPostAnnotation.swift in Sources */,
+				5307BD6D2590EA2D00390F62 /* MapViewController.swift in Sources */,
+				5307BD642590BC9A00390F62 /* Post.swift in Sources */,
+				5307BD9E259120A000390F62 /* ProfileViewModel.swift in Sources */,
+				53DB37F925C7033600DE89EC /* Message.swift in Sources */,
+				5307BD942591208900390F62 /* MessageListViewController.swift in Sources */,
+				5307BD722590EA3900390F62 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5307BD3E2590BB3000390F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307BD472590BB3000390F62 /* dropitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5307BD492590BB3000390F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307BD522590BB3000390F62 /* dropitoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5307BD442590BB3000390F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5307BD2B2590BB2E00390F62 /* dropito */;
+			targetProxy = 5307BD432590BB3000390F62 /* PBXContainerItemProxy */;
+		};
+		5307BD4F2590BB3000390F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5307BD2B2590BB2E00390F62 /* dropito */;
+			targetProxy = 5307BD4E2590BB3000390F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5307BD352590BB2E00390F62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5307BD362590BB2E00390F62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5307BD3A2590BB3000390F62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5307BD3B2590BB3000390F62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5307BD542590BB3000390F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5307BD552590BB3000390F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5307BD572590BB3000390F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP8C234889;
+				INFOPLIST_FILE = dropito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kramar.dropito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5307BD582590BB3000390F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP8C234889;
+				INFOPLIST_FILE = dropito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kramar.dropito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5307BD5A2590BB3000390F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP8C234889;
+				INFOPLIST_FILE = dropitoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kramar.dropitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropito.app/dropito";
+			};
+			name = Debug;
+		};
+		5307BD5B2590BB3000390F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP8C234889;
+				INFOPLIST_FILE = dropitoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kramar.dropitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropito.app/dropito";
+			};
+			name = Release;
+		};
+		5307BD5D2590BB3000390F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP8C234889;
+				INFOPLIST_FILE = dropitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kramar.dropitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dropito;
+			};
+			name = Debug;
+		};
+		5307BD5E2590BB3000390F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP8C234889;
+				INFOPLIST_FILE = dropitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kramar.dropitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dropito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5307BD272590BB2E00390F62 /* Build configuration list for PBXProject "dropito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5307BD542590BB3000390F62 /* Debug */,
+				5307BD552590BB3000390F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5307BD562590BB3000390F62 /* Build configuration list for PBXNativeTarget "dropito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5307BD572590BB3000390F62 /* Debug */,
+				5307BD582590BB3000390F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5307BD592590BB3000390F62 /* Build configuration list for PBXNativeTarget "dropitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5307BD5A2590BB3000390F62 /* Debug */,
+				5307BD5B2590BB3000390F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5307BD5C2590BB3000390F62 /* Build configuration list for PBXNativeTarget "dropitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5307BD5D2590BB3000390F62 /* Debug */,
+				5307BD5E2590BB3000390F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5307BD242590BB2E00390F62 /* Project object */;
+}
